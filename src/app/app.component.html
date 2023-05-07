@@ -27,8 +27,10 @@
         </g>
       </g>
     </svg>
-
-    <span>{{ title }} by {{author}}</span>
+    <span>
+      <H2>Jordanian Universities</H2>
+    </span>
+    <div id="earth"></div>
 
     <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632"
       viewBox="0 0 516.119 1083.632">
@@ -47,21 +49,24 @@
       transform="translate(142.69 -634.312)" fill="#eee" />
   </svg>
 </div>
-<app-cdk-observe-when-content-changes></app-cdk-observe-when-content-changes>
-<app-bounds-of-browser-viewport></app-bounds-of-browser-viewport>
 <app-cdk-observer></app-cdk-observer>
-<app-cdk-api></app-cdk-api>
-<app-items-data-array></app-items-data-array>
+
 <mat-grid-list cols="2" rowHeight="2:1">
   <mat-grid-tile>
+    <div id="earth"></div>
   </mat-grid-tile>
   <mat-grid-tile>
     <cdk-drag-drop-connected-sorting-example></cdk-drag-drop-connected-sorting-example>
   </mat-grid-tile>
   <mat-grid-tile>
-    <div id="earth"></div>
+    <app-cdk-observe-when-content-changes></app-cdk-observe-when-content-changes>
+    <p></p>
+    <app-bounds-of-browser-viewport></app-bounds-of-browser-viewport>
+    <p></p>
+    <app-cdk-api></app-cdk-api>
   </mat-grid-tile>
   <mat-grid-tile>
     <router-outlet></router-outlet>
   </mat-grid-tile>
 </mat-grid-list>
+<app-items-data-array></app-items-data-array>

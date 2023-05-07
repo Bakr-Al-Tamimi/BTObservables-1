@@ -1,1 +1,18 @@
-<p>cdk-observer works!</p>
+<mat-accordion>
+    <mat-expansion-panel *ngFor="let university of universitiesArray">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{university.name}}
+        </mat-panel-title>
+        <mat-panel-description>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>{{university.name}}</p>     
+      <p><a href="{{university.domains}}">{{university.domains}}</a></p>
+      <p><a href="{{university.web_pages}}">{{university.web_pages}}</a></p>
+      <p>{{university.state_provice}}</p>
+      <p>{{university.alpha_two_code}}</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+<hr>
+<!-- {{universitiesArray |json}} -->
