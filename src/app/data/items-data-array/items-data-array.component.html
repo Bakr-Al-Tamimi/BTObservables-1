@@ -1,6 +1,30 @@
+
 <label>
   100,000 Items
 </label>
 <cdk-virtual-scroll-viewport width="100%" appendOnly itemSize="100" class="cdk-viewport">
     <div *cdkVirtualFor="let item of items" class="cdk-item">{{item}}</div>
   </cdk-virtual-scroll-viewport>
+<p>
+
+</p>
+<hr>
+<p>
+  
+</p>
+<!-- #docregion listbox -->
+<label class="example-listbox-label" id="example-shirt-size-label">
+  Size Selection
+</label>
+<ul cdkListbox
+    cdkListboxOrientation="horizontal"
+    aria-labelledby="example-shirt-size-label"
+    class="example-listbox">
+    <!-- [SelectedOption]="size" -->
+    <li *ngFor="let size of sizes"
+    class="example-option" (click)="clicked(size)">
+    {{size}}
+  </li>
+</ul>
+Selected Size : {{SelectedOption}}
+<!-- #enddocregion listbox -->
