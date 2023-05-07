@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ItemsDataArrayComponent } from './data/items-data-array/items-data-array.component';
 import { CdkDragDropConnectedSortingExampleComponent } from './cdk-examples/cdk-drag-drop-connected-sorting-example/cdk-drag-drop-connected-sorting-example.component';
 import { CdkObserverComponent } from './observers/cdk-observer/cdk-observer.component';
+import { CdkApiComponent } from './observers/cdk-api/cdk-api.component';
 
 
 
@@ -22,6 +23,7 @@ import { CdkObserverComponent } from './observers/cdk-observer/cdk-observer.comp
     ItemsDataArrayComponent,
     CdkDragDropConnectedSortingExampleComponent,
     CdkObserverComponent,
+    CdkApiComponent,
   ],
   imports: [
     AppRoutingModule,
