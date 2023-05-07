@@ -1,0 +1,6 @@
+<label>
+  100,000 Items
+</label>
+<cdk-virtual-scroll-viewport width="50%" appendOnly itemSize="50" class="cdk-viewport">
+    <div *cdkVirtualFor="let item of items" class="cdk-item">{{item}}</div>
+  </cdk-virtual-scroll-viewport>

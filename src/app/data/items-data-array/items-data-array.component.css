@@ -1,0 +1,9 @@
+.cdk-viewport {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+  }
+  
+  .cdk-item {
+    height: 50px;
+  }
