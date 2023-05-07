@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-items-data-array',
@@ -6,7 +6,7 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   styleUrls: ['./items-data-array.component.css']
 })
 export class ItemsDataArrayComponent implements OnInit {
- public items = Array.from({length: 100000}).map((_, i) => `Item #${i}`);
+ public items = Array.from({length: 100000}).map((_, i) => `BT Angular Test Item #: ${i}`);
 
   constructor() { }
 
