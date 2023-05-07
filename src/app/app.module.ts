@@ -15,7 +15,8 @@ import { CdkObserverComponent } from './observers/cdk-observer/cdk-observer.comp
 import { CdkApiComponent } from './observers/cdk-api/cdk-api.component';
 import { BoundsOfBrowserViewportComponent } from './utility/bounds-of-browser-viewport/bounds-of-browser-viewport.component';
 import { CoercingInputIntoSpecificTypesComponent } from './utility/coercing-input-into-specific-types/coercing-input-into-specific-types.component';
-
+import { CdkObserveWhenContentChangesComponent } from './observers/cdk-observe-when-content-changes/cdk-observe-when-content-changes.component';
+import {HelloComponent} from './observers/cdk-observe-when-content-changes/hello'
 
 
 
@@ -28,6 +29,8 @@ import { CoercingInputIntoSpecificTypesComponent } from './utility/coercing-inpu
     CdkApiComponent,
     BoundsOfBrowserViewportComponent,
     CoercingInputIntoSpecificTypesComponent,
+    CdkObserveWhenContentChangesComponent,
+    HelloComponent
   ],
   imports: [
     AppRoutingModule,
