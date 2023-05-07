@@ -10,6 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
 import { ItemsDataArrayComponent } from './data/items-data-array/items-data-array.component';
+import { CdkDragDropConnectedSortingExampleComponent } from './cdk-examples/cdk-drag-drop-connected-sorting-example/cdk-drag-drop-connected-sorting-example.component';
 
 
 
@@ -18,6 +19,7 @@ import { ItemsDataArrayComponent } from './data/items-data-array/items-data-arra
   declarations: [
     AppComponent,
     ItemsDataArrayComponent,
+    CdkDragDropConnectedSortingExampleComponent,
   ],
   imports: [
     AppRoutingModule,
