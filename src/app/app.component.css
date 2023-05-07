@@ -1,0 +1,33 @@
+#earth {
+    width: 300px;
+    height: 300px;
+    background-image: url('./resources/images/erath.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #earth:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./resources/images/erath.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation-name: rotate;
+            animation-name: rotate;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes rotate {
+      from { -webkit-transform: rotate(0deg); }
+      to { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+  }
