@@ -14,6 +14,7 @@ import { CdkDragDropConnectedSortingExampleComponent } from './cdk-examples/cdk-
 import { CdkObserverComponent } from './observers/cdk-observer/cdk-observer.component';
 import { CdkApiComponent } from './observers/cdk-api/cdk-api.component';
 import { BoundsOfBrowserViewportComponent } from './utility/bounds-of-browser-viewport/bounds-of-browser-viewport.component';
+import { CoercingInputIntoSpecificTypesComponent } from './utility/coercing-input-into-specific-types/coercing-input-into-specific-types.component';
 
 
 
@@ -26,6 +27,7 @@ import { BoundsOfBrowserViewportComponent } from './utility/bounds-of-browser-vi
     CdkObserverComponent,
     CdkApiComponent,
     BoundsOfBrowserViewportComponent,
+    CoercingInputIntoSpecificTypesComponent,
   ],
   imports: [
     AppRoutingModule,
