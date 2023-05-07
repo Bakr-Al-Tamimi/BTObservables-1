@@ -13,6 +13,7 @@ import { ItemsDataArrayComponent } from './data/items-data-array/items-data-arra
 import { CdkDragDropConnectedSortingExampleComponent } from './cdk-examples/cdk-drag-drop-connected-sorting-example/cdk-drag-drop-connected-sorting-example.component';
 import { CdkObserverComponent } from './observers/cdk-observer/cdk-observer.component';
 import { CdkApiComponent } from './observers/cdk-api/cdk-api.component';
+import { BoundsOfBrowserViewportComponent } from './utility/bounds-of-browser-viewport/bounds-of-browser-viewport.component';
 
 
 
@@ -24,6 +25,7 @@ import { CdkApiComponent } from './observers/cdk-api/cdk-api.component';
     CdkDragDropConnectedSortingExampleComponent,
     CdkObserverComponent,
     CdkApiComponent,
+    BoundsOfBrowserViewportComponent,
   ],
   imports: [
     AppRoutingModule,
